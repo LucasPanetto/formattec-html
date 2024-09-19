@@ -1,0 +1,54 @@
+#first-section {
+    background: url('../assets/pattern_recortado.jpg');
+    background-size: 8rem;
+}
+
+#first-section {
+    background-color: white;
+    height: 100vh;
+}
+
+#first-section::after {
+    content: " ";
+    border-top: 100vh solid #C2A152;
+    border-left: 80vw solid transparent;
+    width: 0;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-container img {
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+ul {
+    list-style-type: none;
+    color: #46424A;
+    font-size: 1rem;
+}
+
+.home-buttons .text-center {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: #959da533 0 8px 24px;
+}
+
+.home-buttons .text-center:hover {
+    box-shadow: #00000059 0 5px 15px;
+    cursor: pointer;
+}
+
+.home-buttons .text-center img {
+    width: 100% !important;
+}

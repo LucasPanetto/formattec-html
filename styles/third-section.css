@@ -1,0 +1,13 @@
+#third-section>.container-fluid {
+    background: url('../assets/pattern-dourado-opc.png');
+    background-size: 8rem;
+    color: white !important;
+    border-radius: 80px 0px 80px 0;
+}
+
+#third-section i {
+    font-size: 4vh;
+    border-radius: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, .5);
+}

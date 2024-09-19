@@ -2,6 +2,7 @@
     background: url('../assets/pattern-dourado-opc.png');
     background-size: 8rem;
     color: white !important;
+    border-radius: 80px 0px 80px 0;
 }
 
 .profile-rate-image {

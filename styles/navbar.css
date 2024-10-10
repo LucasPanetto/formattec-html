@@ -74,9 +74,7 @@ ul {
         .logo {
             display: none;
         }
-    }
 
-    .navbar.photo {
         .btn-icon {
             display: inline;
         }
@@ -84,7 +82,20 @@ ul {
         .logo-nav {
             display: inline;
         }
-        
+    }
+
+    .navbar.normal {
+        .logo {
+            display: none;
+        }
+
+        .btn-icon {
+            display: inline;
+        }
+
+        .logo-nav {
+            display: inline;
+        }
     }
 
     .navbar-brand img {
@@ -101,12 +112,29 @@ ul {
         .btn-text {
             display: inline;
         }
+
         .logo {
             display: inline;
         }
+
+        .btn-icon {
+            display: none;
+        }
+
+        .logo-nav {
+            display: none;
+        }
     }
 
-    .navbar.photo {
+    .navbar.normal {
+        .btn-text {
+            display: inline;
+        }
+
+        .logo {
+            display: inline;
+        }
+
         .btn-icon {
             display: none;
         }

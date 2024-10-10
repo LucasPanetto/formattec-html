@@ -127,10 +127,6 @@ ul {
     }
 
     .navbar.normal {
-        .btn-text {
-            display: inline;
-        }
-
         .logo {
             display: inline;
         }

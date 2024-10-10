@@ -89,10 +89,6 @@ ul {
             display: none;
         }
 
-        .btn-icon {
-            display: inline;
-        }
-
         .logo-nav {
             display: inline;
         }
@@ -117,10 +113,6 @@ ul {
             display: inline;
         }
 
-        .btn-icon {
-            display: none;
-        }
-
         .logo-nav {
             display: none;
         }
@@ -129,10 +121,6 @@ ul {
     .navbar.normal {
         .logo {
             display: inline;
-        }
-
-        .btn-icon {
-            display: none;
         }
 
         .logo-nav {

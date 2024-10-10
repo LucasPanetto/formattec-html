@@ -1,12 +1,37 @@
 #fifth-section {
     background-color: #f2f2f2;
+
+    .card-about {
+        border-radius: 15px;
+        background: linear-gradient(to bottom, #C2A152, #ffe9b5); /* Gradiente do laranja ao amarelo */
+
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);
+        box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);
+
+        .icon-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: white;
+            padding: 10px;
+        }
+
+        p {
+            text-align: justify;
+            text-indent: 15px;
+        }
+    }
 }
 
 .pessoa-img {
     max-width: 80%;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #f77a1430;
+    background-color: #C2A152;
 }
 
 @media (max-width: 991px) {

@@ -1,0 +1,19 @@
+#services-photo-section {
+    background-color: #f2f2f2;
+
+    .card {
+        height: 100%;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 100%;
+        margin: auto;
+        -webkit-box-shadow: 1px 1px 5px 0px #C2A152;
+        -moz-box-shadow: 1px 1px 5px 0px #C2A152;
+        box-shadow: 1px 1px 5px 0px #C2A152;
+        border: none;
+        justify-content: center;
+        background: url('../assets/teste.png');
+        background-position-x: 4rem;
+        background-repeat: no-repeat;
+    }
+}

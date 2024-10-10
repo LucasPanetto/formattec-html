@@ -1,0 +1,55 @@
+#contact-section.kids>.container-fluid {
+    background: url('../assets/pattern_recortado_kids_opc.png');
+
+    background-size: 8rem;
+    border-radius: 80px 0px 80px 0;
+
+    color: white !important;
+}
+
+#contact-section.normal>.container-fluid {
+    background: url('../assets/pattern-dourado-opc.png');
+    background-size: 8rem;
+    border-radius: 80px 0px 80px 0;
+    color: white !important;
+}
+
+
+.album-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 0;
+    /* Mantém a altura dos itens com base no aspecto das imagens */
+    padding-bottom: 100%;
+    /* Cria uma proporção de 1:1 para os itens */
+}
+
+.album-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta a imagem para cobrir o contêiner */
+}
+
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    .album {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 8px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .album {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 6px;
+        padding: 6px;
+    }
+}

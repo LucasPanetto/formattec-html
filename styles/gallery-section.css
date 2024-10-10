@@ -1,0 +1,36 @@
+#gallery-section {
+    background-color: #f2f2f2;
+}
+
+#gallery-section>.container-fluid {
+    background: url('../assets/pattern-dourado-opc.png');
+    background-size: 8rem;
+    border-radius: 80px 0px 80px 0;
+    color: white !important;
+}
+
+
+.card {
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);
+    box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);
+    border: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}

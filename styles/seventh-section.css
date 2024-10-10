@@ -1,0 +1,28 @@
+#seventh-section.kids {
+    background-color: #f2f2f2;
+
+    .card-info {
+        border-radius: 1rem;
+
+        .icon-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+
+    }
+
+    .img-container {
+        img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
+    }
+}
+
+

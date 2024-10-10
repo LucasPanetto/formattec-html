@@ -1,0 +1,35 @@
+#info-section {
+    background-color: #f2f2f2;
+
+    .card-info {
+        border-radius: 1rem;
+        text-align: justify;
+        text-indent: 15px;
+        -webkit-box-shadow: 1px 1px 5px 0px #C2A152;
+        -moz-box-shadow: 1px 1px 5px 0px #C2A152;
+        box-shadow: 1px 1px 5px 0px #C2A152;
+
+        .icon-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        p::first-letter {
+            font-weight: bold;
+        }
+
+
+    }
+
+    .img-container {
+        img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
+    }
+}

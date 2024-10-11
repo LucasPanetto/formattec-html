@@ -12,19 +12,22 @@
     background-color: #f77a1430;
 }
 
-.card {
-    max-width: 100%;
+#sixth-section {
+    .card {
+        max-width: 100%;
+    }
+    
+    .card-header-name {
+        color: #C2A152;
+    }
+    
+    .card-body {
+        text-align: justify;
+        text-indent: 20px;
+    }
+    
+    .card-header-course>small {
+        font-size: 10px;
+    }
 }
 
-.card-header-name {
-    color: #C2A152;
-}
-
-.card-body {
-    text-align: justify;
-    text-indent: 20px;
-}
-
-.card-header-course>small {
-    font-size: 10px;
-}

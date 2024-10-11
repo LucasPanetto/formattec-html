@@ -1,4 +1,4 @@
-#seventh-section.kids {
+#kids-detail-section.kids {
     background-color: #f2f2f2;
 
     .card-info {
@@ -23,6 +23,19 @@
             border-radius: 20px;
         }
     }
+
+
 }
 
+@media (max-width: 1400px) {
+    #kids-detail-section {
+        .card-info {
+            margin-bottom: 5px !important;
+            margin-top: 5px !important;
 
+            .col-2 {
+                padding: 0px !important;
+            }
+        }
+    }
+}

@@ -113,6 +113,10 @@ ul {
             display: inline;
         }
 
+        .btn-icon {
+            display: none;
+        }
+
         .logo-nav {
             display: none;
         }

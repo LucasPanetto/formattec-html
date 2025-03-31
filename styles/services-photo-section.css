@@ -13,7 +13,8 @@
         border: none;
         justify-content: center;
         background: url('../assets/teste.png');
-        background-position-x: 4rem;
+        background-position-x: 23rem;
+        background-position-y: 4rem;
         background-repeat: no-repeat;
     }
 }

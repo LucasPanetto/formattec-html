@@ -19,6 +19,20 @@ Rosa02: #F771B5
     }
 }
 
+#initial-section.teens {
+    background: url('../assets/pattern_recortado_teens.png');
+    background-size: 15rem;
+    background-color: white;
+    height: 100vh;
+
+    .logo-container img {
+        max-width: 80%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+}
+
+
 
 /* Kids */
 

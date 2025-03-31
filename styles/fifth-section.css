@@ -3,7 +3,7 @@
 
     .card-about {
         border-radius: 15px;
-        background: linear-gradient(to bottom, #C2A152, #ffe9b5); /* Gradiente do laranja ao amarelo */
+        background: linear-gradient(to bottom, #C2A152, #ffce59); /* Gradiente do laranja ao amarelo */
 
         -webkit-box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);
         -moz-box-shadow: 1px 1px 5px 0px rgba(105, 105, 105, 0.43);

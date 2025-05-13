@@ -1,9 +1,9 @@
 #services-photo-section {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2 !important;
 
-    .card {
+    .card-info {
         height: 100%;
-        border-radius: 15px;
+        border-radius: 15px !important;
         overflow: hidden;
         width: 100%;
         margin: auto;
@@ -16,5 +16,41 @@
         background-position-x: 23rem;
         background-position-y: 4rem;
         background-repeat: no-repeat;
+    }
+}
+
+#info-section {
+    background-color: white !important;
+
+    .card-info {
+        border-radius: 1rem;
+        text-align: justify;
+        text-indent: 15px;
+        -webkit-box-shadow: 1px 1px 5px 0px #C2A152;
+        -moz-box-shadow: 1px 1px 5px 0px #C2A152;
+        box-shadow: 1px 1px 5px 0px #C2A152;
+
+        .icon-container {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        p::first-letter {
+            font-weight: bold;
+        }
+
+
+    }
+
+    .img-container {
+        img {
+            max-width: 100%;
+            border-radius: 20px;
+        }
     }
 }

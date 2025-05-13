@@ -1,10 +1,9 @@
 .dark-section {
     background-color: #46424A !important;
-    border-radius: 80px 0px 80px 0;
 }
 
 @media (max-width: 991px) {
     .dark-section {
-        border-radius: 40px 0px 40px 0;
+        /* border-radius: 40px 0px 40px 0; */
     }
 }

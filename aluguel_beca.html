@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formattec - Aluguel de Becas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="icon" href="assets/Logos/logo_nav.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/services-photo-section.css">
+    <link rel="stylesheet" href="styles/dark-sections.css">
+    <link rel="stylesheet" href="styles/initial-section.css">
+    <link rel="stylesheet" href="styles/info-section.css">
+    <link rel="stylesheet" href="styles/gallery-section.css">
+    <link rel="stylesheet" href="styles/contact-section.css">
+    <link rel="stylesheet" href="styles/tips-section.css">
+    <link rel="stylesheet" href="styles/footer-section.css">
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/4da7301d68.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Estilos personalizados para a página de becas */
+        .gold-bg {
+            background-color: #FFD700; /* Dourado principal */
+        }
+        .gold-card {
+            border: 2px solid #D4AF37; /* Borda metálica */
+            background-color: #FFF9E6; /* Fundo claro com toque dourado */
+        }
+        .gold-text {
+            color: #8B7500; /* Texto em tom de ouro escuro */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Fixa -->
+    <div class="navbar-wrapper" style="z-index: 5; position: fixed;">
+        <nav class="navbar bg-body-tertiary p-0 navbar-with-color photo" id="navbar" style="z-index: 50; margin-top:1rem">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">
+                    <img src="assets/Logos/logo.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <a class="navbar-brand logo-nav" href="#">
+                    <img src="assets/Logos/logo_nav.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <a href="index.html" type="button" class="btn btn-outline-secondary btn-text">Voltar para o início</a>
+                <a href="index.html" type="button" class="btn btn-outline-secondary btn-icon"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Seção Hero (Dourado Chamativo) -->
+    <section id="initial-section" class="normal photo" style="background: linear-gradient(135deg, #FFD700 0%, #F9A602 100%);">
+        <div class="container d-flex align-items-center justify-content-center h-100">
+            <div class="row w-100" style="z-index: 1;">
+                <div class="col-md-12 align-self-center">
+                    <div class="text-center">
+                        <div class="logo-container">
+                            <h1 style="font-size: 5rem; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+                                <b>A</b>luguel de <br> <b>B</b>ecas
+                            </h1>
+                        </div>
+                        <ul>
+                            <li style="font-size: 3vh; color: #fff; font-weight: 500;">
+                                • Elegância e conforto para o seu momento especial •
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services-photo-section" class="pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center header-text">
+                    <h1 class="display-3 gold-text">Nossas Becas</h1>
+                    <span>Becas premium para sua formatura</span>
+                </div>
+            </div>
+            <div class="row" style="place-content: center;">
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-5 col-10 mb-4">
+                    <div class="card p-3 w-100 gold-card">
+                        <h4 class="gold-text"><b>B</b>eca <b>P</b>remium</h4>
+                        <small>
+                            - Tecido de alta qualidade <br>
+                            - Cor do curso disponível <br>
+                            - Lavagem profissional inclusa <br>
+                            - Ajuste personalizado
+                        </small>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-5 col-10 mb-4">
+                    <div class="card p-3 gold-card">
+                        <h4 class="gold-text"><b>C</b>apelo + <b>C</b>anudo</h4>
+                        <small>
+                            - Conjunto completo <br>
+                            - Capelo com borla dourada <br>
+                            - Canudo personalizado <br>
+                            - Inclui estojo protetor
+                        </small>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-5 col-10 mb-4">
+                    <div class="card p-3 gold-card">
+                        <h4 class="gold-text"><b>P</b>acote <b>C</b>ompleto</h4>
+                        <small>
+                            - Beca + Capelo + Canudo <br>
+                            - Desconto especial <br>
+                            - Entrega agendada <br>
+                            - Assistência 24h
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Informações -->
+    <section id="info-section" class="pb-5 ensaio" style="background-color: #FFF9E6;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center header-text">
+                    <h1 class="display-3 gold-text">Como Funciona</h1>
+                    <span>Processo simples e seguro</span>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Coluna de Texto -->
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12">
+                    <div class="row m-auto h-100" style="align-content: space-evenly;">
+                        <!-- Item 1 -->
+                        <div class="card-info row py-3 m-auto mb-3" style="background-color: #FFEBB5; border-left: 4px solid #D4AF37;">
+                            <div class="col-12">
+                                <h5 class="gold-text"><b>Reserva Antecipada</b></h5>
+                                <p class="mb-0">Garanta sua beca com pelo menos 15 dias de antecedência para evitar falta de tamanhos.</p>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="card-info row py-3 m-auto mb-3" style="background-color: #FFEBB5; border-left: 4px solid #D4AF37;">
+                            <div class="col-12">
+                                <h5 class="gold-text"><b>Medidas Corporretas</b></h5>
+                                <p class="mb-0">Forneça suas medidas (altura, peso) para indicarmos o tamanho ideal.</p>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="card-info row py-3 m-auto mb-3" style="background-color: #FFEBB5; border-left: 4px solid #D4AF37;">
+                            <div class="col-12">
+                                <h5 class="gold-text"><b>Retirada e Devolução</b></h5>
+                                <p class="mb-0">Retire 2 dias antes do evento e devolva em até 48h após a formatura.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Coluna de Imagem -->
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12 mt-4 mt-lg-0">
+                    <div class="img-container p-3" style="background-color: #D4AF37; border-radius: 15px; text-align: center;">
+                        <img src="assets/Images/beca-example.jpg" alt="Beca de Formatura" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <div style="background-color: #f2f2f2;">
+        <section id="contact-section" class="dark-section normal pb-3">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center header-text">
+                            <h1 class="display-3">Reserve Agora</h1>
+                            <span>Garanta sua beca para o grande dia</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: center;">
+                            <a href="https://api.whatsapp.com/send?phone=5527995338747&text=Ol%C3%A1%2C%20gostaria%20de%20alugar%20uma%20beca%20para%20minha%20formatura." class="btn btn-success" target="_blank">
+                                <i class="fa-brands fa-whatsapp fa-beat" style="margin-right: 10px;" aria-hidden="true"></i>
+                                WhatsApp
+                            </a>
+                            <a href="https://www.instagram.com/formattec_formaturas/" class="btn btn-danger mx-4" target="_blank">
+                                <i class="fa-brands fa-instagram fa-beat" style="margin-right: 10px;" aria-hidden="true"></i>
+                                Instagram
+                            </a>
+                            <a href="tel:27995338747" class="btn btn-secondary">
+                                <i class="fa fa-phone" style="margin-right: 10px;" aria-hidden="true"></i>
+                                Telefone
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div>
+        <section class="footer-section p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>Made with <span style="color: red;">♥</span> by <a href="https://instagram.com">panetto</a>.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
